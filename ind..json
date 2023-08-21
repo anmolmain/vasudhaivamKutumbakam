@@ -1,4 +1,5 @@
 {
-    "name": "Anmol"
-    "class ": "b.tech"
+    "name": "Anmol",
+    "class": "b.tech",
+    "planet" : "earth"
 }
