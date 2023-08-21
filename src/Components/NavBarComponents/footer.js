@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
             <footer className="">
                 © 2022 Copyright:
-                <a href="https://github.com/anmolmain" target="_blank"> https://github.com/anmolmain</a>
+                <a href="https://github.com/anmolmain" target="_blank" rel="noreferrer"> https://github.com/anmolmain</a>
             </footer >
         </div >
     )

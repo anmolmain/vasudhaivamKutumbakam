@@ -23,13 +23,13 @@ const InputForm = () => {
   const postData = async (e) => {
     e.preventDefault();
     const { name, category, problemDescription, contactNumber, anyotherdetails, lastDate, foundWHere, linkToOriginalPost, adhaar } = user;
-    if (contactNumber == "") {
+    if (contactNumber === "") {
       contactNumber = "Not Mentioned";
     }
-    else if (lastDate == "") {
+    else if (lastDate === "") {
       lastDate = "Not Mentioned";
     }
-    else if (adhaar == "") {
+    else if (adhaar === "") {
       adhaar = "Not Mentioned";
     }
 

@@ -26,7 +26,7 @@ const Cards = ({ post }) => {
                         <h6><b>Contact Number (Reciever's)</b> : {post.contactNumber}</h6>
                         <h6><b>Contact Number (who posted this ad)</b> : {post.adhaar}</h6>
                         <h6><b>Last Date</b> : {post.lastDate}</h6>                        <hr style={{ marginLeft: "0px" }} />
-                        <a href={post.linkToOriginalPost} target="_blank"><input type="button" value="More detials" className='formButton' /></a>
+                        <a href={post.linkToOriginalPost} target="_blank" rel="noreferrer"><input type="button" value="More detials" className='formButton' /></a>
                     </div>
                 ))}
             <SvgDown></SvgDown>
