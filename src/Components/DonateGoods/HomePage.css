@@ -1,0 +1,24 @@
+.btnHomePage {
+    width: 100%;
+    text-align: center;
+    background-color: #e4243af6;
+    border: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    /* border:  solid black; */
+}
+.line{
+    width: 1px;
+    color: black;
+    background-color: #e4243af6;   
+}
+.lineInside{
+    width: 3%;
+    background-color: black;
+    height: 100%;
+    border-radius: 70%;
+}
+.ctr{
+    text-align: center;
+}

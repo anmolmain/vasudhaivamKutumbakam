@@ -1,0 +1,39 @@
+hr {
+    margin-left: 15%;
+}
+
+.wrapper {
+    display: flex;
+    overflow-x: scroll;
+
+
+}
+
+.wrapper .NavBtn {
+    margin: 20px;
+    text-align: center;
+    width: auto;
+    padding: 1%;
+    background-color: whitesmoke;
+    border: 0px;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    box-shadow: inset -7px -7px 10px 5px rgb(148, 144, 144);
+    font-weight: 800;
+    color: #e4243af6;
+}
+
+.NavBtn:hover {
+    transition: 0.3s;
+    color: white;
+    background-color: rgb(150, 142, 142);
+    box-shadow: inset -5px -5px 8px 3px rgb(97, 93, 93);
+}
+
+@media screen and (max-width:700px) {
+    .wrapper .NavBtn {
+        margin: 10px;
+        padding: 3%;
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,7 @@
+@media screen and (max-width: 990px) {
+    .liText {
+        font-size: 1.2rem;
+        margin: 2%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,8 @@
+svg {
+    display: inline-block;
+    position: absolute;
+    top: 9.5%;
+    left: 0;
+    scale: 1.02;
+    z-index: -1;
+}
